@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/thislayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anaya.mfind.SearchActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="Search Your Medicine"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/district"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="41dp"
+        android:layout_toStartOf="@+id/title"
+        android:text="District"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/district"
+        android:layout_below="@+id/district"
+        android:layout_marginTop="31dp"
+        android:text="Place"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/medname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinplace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Medicine Name"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spindistrict"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/district"
+        android:layout_alignStart="@+id/medname"
+        android:layout_alignTop="@+id/district" />
+
+    <Spinner
+        android:id="@+id/spinplace"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spindistrict"
+        android:layout_alignTop="@+id/place" />
+
+    <AutoCompleteTextView
+        android:id="@+id/automedicine"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/automedicine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="View" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anaya.mfind.ShopListActivity">
+
+    <TextView
+        android:id="@+id/shops_text"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="13dp"
+        android:text="5 Shops are Available for entered medicine" />
+
+    <TextView
+        android:id="@+id/no_shops"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/district"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="You have no shops " />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/district"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/shops_text"
+        android:layout_alignBottom="@+id/shops_text"
+        android:layout_toEndOf="@+id/no_shops" />
+
+    <TextView
+        android:id="@+id/district"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/place"
+        android:layout_below="@+id/place" />
+</RelativeLayout>

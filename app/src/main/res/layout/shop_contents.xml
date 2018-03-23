@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+      <TextView android:paddingBottom="8dp"
+        android:paddingStart="10dp"
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+       
+        
+        android:text="Arjun medicals" />
+
+     <TextView android:paddingBottom="8dp"
+        android:paddingStart="10dp"
+        android:id="@+id/shop_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/shop_name"
+        android:text="9:00AM - 9:00PM" />
+
+     <TextView android:paddingBottom="8dp"
+        android:paddingStart="10dp"
+        android:id="@+id/shop_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/shop_time"
+        android:text="96331258747" />
+
+    <TextView
+        android:id="@+id/district"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/shop_name"
+        android:layout_alignBottom="@+id/shop_name"
+        android:layout_marginStart="89dp"
+        android:layout_toEndOf="@+id/shop_time"
+        android:text="Trivandrum" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shop_contact"
+        android:layout_alignStart="@+id/district"
+        android:text="Thirumala" />
+</RelativeLayout>
