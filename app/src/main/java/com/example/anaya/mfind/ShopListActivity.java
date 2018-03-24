@@ -122,14 +122,14 @@ public class ShopListActivity extends AppCompatActivity {
             final TextView shopname = view.findViewById(R.id.shop_name);
             TextView times = view.findViewById(R.id.shop_time);
             final TextView contact = view.findViewById(R.id.shop_contact);
-            final TextView district = view.findViewById(R.id.district);
-            final TextView place = view.findViewById(R.id.place);
+            final TextView districts = view.findViewById(R.id.district);
+            final TextView places = view.findViewById(R.id.place);
 
             shopname.setText(shop_names.get(position));
-            times.setText(this.time.get(position));
-            contact.setText(this.shop_contact.get(position));
-            district.setText(this.district);
-            place.setText(this.place);
+            times.setText("Time "+this.time.get(position));
+            contact.setText("Contact  "+this.shop_contact.get(position));
+            districts.setText(this.district);
+            places.setText(this.place);
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -141,6 +141,7 @@ public class ShopListActivity extends AppCompatActivity {
                     next.putExtra("shopname",shop_names.get(position));
                     next.putExtra("shoptime",time.get(position));
                     next.putExtra("place_dis",place+","+district);
+                    next.putExtra("contact",shop_contact.get(position));
                     next.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(next);
 

@@ -1,27 +1,27 @@
 #Internal package file, do not edit.
-#Sat Jan 20 23:24:50 IST 2018
-2.base=C\:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\assets\\debug
+#Sat Mar 24 17:21:36 IST 2018
+2.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/assets/debug
 5.set=ASSET
-0.path=fonts/bold.ttf
+0.path=fonts/font4.ttf
 2.baseType=DIRECTORY
-3.base=C\:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\assets\\debug
+3.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/assets/debug
 2.set=ASSET
-1.path=fonts/font3.ttf
-4.base=C\:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\assets\\debug
+1.path=fonts/bold.ttf
+4.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/assets/debug
 count=6
 5.baseType=DIRECTORY
-2.path=fonts/font4.ttf
-5.base=C\:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\assets\\debug
+2.path=fonts/font3.ttf
+5.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/assets/debug
 4.set=ASSET
-3.path=fonts/font2.ttf
+3.path=fonts/um.ttf
 3.baseType=DIRECTORY
 1.set=ASSET
-4.path=fonts/um.ttf
+4.path=fonts/font2.ttf
 1.baseType=DIRECTORY
 5.path=fonts/font1.ttf
-0.base=C\:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\assets\\debug
+0.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/assets/debug
 0.baseType=DIRECTORY
 3.set=ASSET
-1.base=C\:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\assets\\debug
+1.base=/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/assets/debug
 4.baseType=DIRECTORY
 0.set=ASSET

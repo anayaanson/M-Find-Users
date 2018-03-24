@@ -2,16 +2,21 @@ package com.example.anaya.mfind;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -33,20 +38,50 @@ public class SearchActivity extends AppCompatActivity {
     Typeface typeface;
     Context context;
     Button medicine_desc;
+    ImageView settings;
     int flag = 0;
     HashMap<String,String> hashMap = new HashMap<>();
     HashMap<String,ArrayList<String>> medicine_Details =new HashMap<>();
     ArrayAdapter<String> districtAdapter,placeAdapter;
-    String mDrawableName = "m6";
+
     HashMap<String,String> imageMap = new HashMap<>();
 
     RelativeLayout thislayout;
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.category,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        SharedPreferences pref = getSharedPreferences("autologin",0);
+        SharedPreferences.Editor editor = pref.edit();
+        switch (item.getItemId()){
+            case R.id.logout:
+                editor.putInt("autologin",0);
+                editor.commit();
+                startActivity(new Intent(SearchActivity.this,Login.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                finish();
+                break;
+             default:
+                 break;
+
+        }
+        return false;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
      //   int resID = getResources().getIdentifier(mDrawableName , "drawable", getPackageName());
+
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         welcome = (TextView) findViewById(R.id.welcome);
         search = (TextView) findViewById(R.id.title);
         district = (TextView) findViewById(R.id.district);
@@ -57,6 +92,14 @@ public class SearchActivity extends AppCompatActivity {
         enterMedicine = (AutoCompleteTextView) findViewById(R.id.automedicine);
         medicine_desc = findViewById(R.id.search);
         thislayout = findViewById(R.id.thislayout);
+        settings = findViewById(R.id.settings_icon);
+
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openOptionsMenu();
+            }
+        });
 
 
         typeface = Typeface.createFromAsset(getAssets(), "fonts/font2.ttf");

@@ -14,6 +14,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -41,7 +42,8 @@ public class getShops extends AsyncTask<String,String,String> {
     ArrayList<String> item_des = new ArrayList<>();
     ArrayList<String> item_preference = new ArrayList<>();
     ArrayList<String> item_brand = new ArrayList<>();
-
+    SimpleDateFormat _24HourSDF = new SimpleDateFormat("HH:mm");
+    SimpleDateFormat _12HourSDF = new SimpleDateFormat("hh:mm a");
     public getShops(Context context, HashMap<String,String> medMap) {
     this.context = context;
     this.medMap = medMap;
@@ -91,7 +93,9 @@ public class getShops extends AsyncTask<String,String,String> {
                 {
                     shop_names.add(jArray.getJSONArray(0).get(start).toString());
                     shop_contact.add(jArray.getJSONArray(1).get(start).toString());
-                    time.add(jArray.getJSONArray(2).get(start).toString()+":"+jArray.getJSONArray(3).get(start).toString());
+                    String t = _12HourSDF.format(_24HourSDF.parse(jArray.getJSONArray(2).get(start).toString()))+" - "+
+                            _12HourSDF.format(_24HourSDF.parse(jArray.getJSONArray(3).get(start).toString()));
+                    time.add(t);
 
                     item_name.add(jArray.getJSONArray(4).get(sub).toString());
                     item_brand.add(jArray.getJSONArray(4).get(sub+1).toString());
@@ -124,7 +128,7 @@ public class getShops extends AsyncTask<String,String,String> {
             intent.putExtra("medicine",medicine);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(intent);
-        } catch (JSONException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -8,7 +8,7 @@ public class getUrl {
     String url = null;
     public String setUrl(String directory)
     {
-        this.url = "http://192.168.43.101/M-Find/"+directory;
+        this.url = "http://192.168.0.10/M-Find/"+directory;
         return  this.url;
     }
 }
