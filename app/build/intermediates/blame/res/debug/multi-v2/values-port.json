@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Anaya\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\70ea688a5fa1ba093c0110b94ca0f94d\\res\\values-port\\values-port.xml",
+                    "source": "/home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/C:\\Users\\Anaya\\AndroidStudioProjects\\MFind\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/C:\\Users\\Anaya\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\70ea688a5fa1ba093c0110b94ca0f94d\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

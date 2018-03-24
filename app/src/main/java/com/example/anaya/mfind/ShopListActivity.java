@@ -1,6 +1,7 @@
 package com.example.anaya.mfind;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -114,18 +115,18 @@ public class ShopListActivity extends AppCompatActivity {
         }
 
         @Override
-        public View getView(int position, View view, ViewGroup viewGroup) {
+        public View getView(final int position, View view, ViewGroup viewGroup) {
             if(view == null)
                 view = View.inflate(context,R.layout.shop_contents,null);
             
-            TextView shopname = view.findViewById(R.id.shop_name);
-            TextView time = view.findViewById(R.id.shop_time);
-            TextView contact = view.findViewById(R.id.shop_contact);
-            TextView district = view.findViewById(R.id.district);
-            TextView place = view.findViewById(R.id.place);
+            final TextView shopname = view.findViewById(R.id.shop_name);
+            TextView times = view.findViewById(R.id.shop_time);
+            final TextView contact = view.findViewById(R.id.shop_contact);
+            final TextView district = view.findViewById(R.id.district);
+            final TextView place = view.findViewById(R.id.place);
 
             shopname.setText(shop_names.get(position));
-            time.setText(this.time.get(position));
+            times.setText(this.time.get(position));
             contact.setText(this.shop_contact.get(position));
             district.setText(this.district);
             place.setText(this.place);
@@ -133,6 +134,16 @@ public class ShopListActivity extends AppCompatActivity {
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    Intent next = new Intent(context,availableActivity.class);
+                    next.putExtra("medname",item_name.get(position));
+                    next.putExtra("medqty",item_qty.get(position));
+                    next.putExtra("medprice",item_price.get(position));
+                    next.putExtra("shopname",shop_names.get(position));
+                    next.putExtra("shoptime",time.get(position));
+                    next.putExtra("place_dis",place+","+district);
+                    next.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(next);
+
 
                 }
             });
