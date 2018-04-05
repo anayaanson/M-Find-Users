@@ -1,238 +1,242 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhil/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/957b8bea221f1da794466d2c506ddeac/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-ads:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.0.aar/1c3d0a1ad030182a9e6bfb50f64b594d/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.0.aar/f31a9a9147fce30cd69a52789fcfc96a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.0.aar/b79e8b14aa762e0014ee9f64c49bcf23/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.0.aar/de8246a1888651caab9403b574e86297/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/edea30947f8bc2d4de761259eca89c8f/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.0.aar/f405a266283b790066da8523eb7b6561/AndroidManifest.xml:2:1-8:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\47e54507d577057b8a27c4d8d5a1ea8e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-12.0.0.aar\f3ba2cb5e241cb06da6c9ac460cbd8b4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-12.0.0.aar\a52d7153888cf922260447b3b3fc51e0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-12.0.0.aar\c98e3b2b244078a38930463d73334d27\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.0.aar\7f5a9315150b70777295cba465b3b444\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.0.aar\7f4e733cc2cec8ffdf9cea33bc98131f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-12.0.0.aar\44c4bb506daeb7aa2e5d110a7fce7048\AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:5:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:24:5-79
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:23:5-67
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:7:22-66
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:7:5-76
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:8:5-76
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:7:22-73
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:8:22-73
 application
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:9:5-28:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhil/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/957b8bea221f1da794466d2c506ddeac/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhil/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/957b8bea221f1da794466d2c506ddeac/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.0.aar/f31a9a9147fce30cd69a52789fcfc96a/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.0.aar/f31a9a9147fce30cd69a52789fcfc96a/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.0.aar/b79e8b14aa762e0014ee9f64c49bcf23/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.0.aar/b79e8b14aa762e0014ee9f64c49bcf23/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.0.aar/de8246a1888651caab9403b574e86297/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.0.aar/de8246a1888651caab9403b574e86297/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/edea30947f8bc2d4de761259eca89c8f/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/edea30947f8bc2d4de761259eca89c8f/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.0.aar/f405a266283b790066da8523eb7b6561/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.0.aar/f405a266283b790066da8523eb7b6561/AndroidManifest.xml:5:5-6:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:24:5-28:19
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:10:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\47e54507d577057b8a27c4d8d5a1ea8e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\47e54507d577057b8a27c4d8d5a1ea8e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-12.0.0.aar\a52d7153888cf922260447b3b3fc51e0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-12.0.0.aar\a52d7153888cf922260447b3b3fc51e0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-12.0.0.aar\c98e3b2b244078a38930463d73334d27\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-12.0.0.aar\c98e3b2b244078a38930463d73334d27\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.0.aar\7f5a9315150b70777295cba465b3b444\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.0.aar\7f5a9315150b70777295cba465b3b444\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.0.aar\7f4e733cc2cec8ffdf9cea33bc98131f\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.0.aar\7f4e733cc2cec8ffdf9cea33bc98131f\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-12.0.0.aar\44c4bb506daeb7aa2e5d110a7fce7048\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-12.0.0.aar\44c4bb506daeb7aa2e5d110a7fce7048\AndroidManifest.xml:5:5-6:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:12:9-41
 	android:allowBackup
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.example.anaya.mfind.Login
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:16:19-40
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:17:19-40
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.example.anaya.mfind.UserRegistration
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:23:9-54
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:24:9-54
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:23:19-51
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:24:19-51
 activity#com.example.anaya.mfind.SearchActivity
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:24:9-52
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:25:9-52
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:24:19-49
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:25:19-49
 activity#com.example.anaya.mfind.ShopListActivity
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:25:9-54
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:26:9-54
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:25:19-51
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:26:19-51
 activity#com.example.anaya.mfind.Medicine_Details
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:26:9-54
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:26:19-51
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:27:19-51
 activity#com.example.anaya.mfind.availableActivity
-ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:27:9-64
+ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:28:9-64
 	android:name
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:27:19-52
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:28:19-52
 uses-sdk
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhil/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/957b8bea221f1da794466d2c506ddeac/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/akhil/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/957b8bea221f1da794466d2c506ddeac/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-ads:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.0.aar/1c3d0a1ad030182a9e6bfb50f64b594d/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.0.aar/1c3d0a1ad030182a9e6bfb50f64b594d/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.0.aar/f31a9a9147fce30cd69a52789fcfc96a/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.0.aar/f31a9a9147fce30cd69a52789fcfc96a/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\47e54507d577057b8a27c4d8d5a1ea8e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\47e54507d577057b8a27c4d8d5a1ea8e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-12.0.0.aar\f3ba2cb5e241cb06da6c9ac460cbd8b4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-12.0.0.aar\f3ba2cb5e241cb06da6c9ac460cbd8b4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-12.0.0.aar\a52d7153888cf922260447b3b3fc51e0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-gass-12.0.0.aar\a52d7153888cf922260447b3b3fc51e0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		ADDED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
-		INJECTED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/022e8a4e4cce3d14ed09b1527dbce8b9/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/38e7f49f6427c1ccefb251168b6334c1/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4f5ca56f401d8204faf8c882faf1f23b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e52a5403c7688e877b708dfca0580cb9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/93f3e894cb325dbb4b95fc15ed627f69/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1b092a59646957f075511b9cb91c3304/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4a2aedd20ae396a9943ecd989f53b6e3/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8db1a9300f83e9bc498fba111b7beea2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\d49739fbdb6ab23c542635449114f110\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b2f9ab8c2e0d799c3fa59dbafc403e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\054dd71c7cf051374b2ab026b7ef0b1f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b3efe9f37115a68ac19f2201a65d20d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\397530df280cce9a8fcad5e7a1fb0c93\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c130bd9d1482964a06f3dc39ca90691c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6113d7936724258535879f8c6da0ce73\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\70ea688a5fa1ba093c0110b94ca0f94d\AndroidManifest.xml:27:13-51
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:29:9-33:64
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:31:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:31:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.0.aar/a86ac0c79d0cf88ffb4b828aa3c95075/AndroidManifest.xml:30:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.0.aar\1040e31dabd8f3be8da14947df174fc6\AndroidManifest.xml:30:13-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/670f279d030563911a44cbf0e17d568c/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\d9b4042999ae12484bbd585697150acd\AndroidManifest.xml:24:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/src/main/AndroidManifest.xml:2:1-30:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Anaya\AndroidStudioProjects\M-Find-Users\app\src\main\AndroidManifest.xml:2:1-31:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/akhil/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/f2f09ea1f6d89ee7da4db056bba5971e/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Anaya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a4af1d38a6f9c13a709f29308a917dde\AndroidManifest.xml:26:13-58

@@ -1,14 +1,19 @@
 package com.example.anaya.mfind;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.util.SparseIntArray;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -43,6 +48,8 @@ public class SearchActivity extends AppCompatActivity {
     HashMap<String,String> hashMap = new HashMap<>();
     HashMap<String,ArrayList<String>> medicine_Details =new HashMap<>();
     ArrayAdapter<String> districtAdapter,placeAdapter;
+
+    public static SparseIntArray mErrorString = new SparseIntArray();
 
     HashMap<String,String> imageMap = new HashMap<>();
 
@@ -115,7 +122,8 @@ public class SearchActivity extends AppCompatActivity {
         //sdistrict.setAdapter(districtAdapter);
         new anaygetDistrict().execute();
         new getMedicines().execute();
-
+        requestAppPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, R.string.runtimepermissions
+                , 99);
         welcome.setText("Welcome " + getIntent().getExtras().getString("name"));
         medicine_desc.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -300,6 +308,25 @@ public class SearchActivity extends AppCompatActivity {
             }
         }
     }
+    public static void requestAppPermissions(final AppCompatActivity activity, final String[] requestedPermissions,
+                                             final int stringId, final int requestCode) {
 
+        mErrorString.put(requestCode, stringId);
+        int permissionCheck = PackageManager.PERMISSION_GRANTED;
+        boolean shouldShowRequestPermissionRationale = false;
+        for (String permission : requestedPermissions) {
+            permissionCheck = permissionCheck + ContextCompat.checkSelfPermission(activity, permission);
+            shouldShowRequestPermissionRationale = shouldShowRequestPermissionRationale || ActivityCompat.shouldShowRequestPermissionRationale(activity, permission);
+        }
+        if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+            if (shouldShowRequestPermissionRationale) {
+                ActivityCompat.requestPermissions(activity, requestedPermissions, requestCode);
+
+            } else {
+                ActivityCompat.requestPermissions(activity, requestedPermissions, requestCode);
+            }
+        } else {
+        }
+    }
 }
 

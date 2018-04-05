@@ -85,38 +85,44 @@ public class getShops extends AsyncTask<String,String,String> {
     protected void onPostExecute(String s) {
         try {
             Intent intent = new Intent(context,ShopListActivity.class);
-            Log.d("jsonarray",jArray.toString());
+            Log.d("jsonarrayshoplist",jArray.toString());
             if(jArray.getJSONArray(1).length()> 0)
             {
                 int start = 0 , end = jArray.getJSONArray(1).length(),sub = 0;
-                while(start<end)
-                {
-                    shop_names.add(jArray.getJSONArray(0).get(start).toString());
-                    shop_contact.add(jArray.getJSONArray(1).get(start).toString());
-                    String t = _12HourSDF.format(_24HourSDF.parse(jArray.getJSONArray(2).get(start).toString()))+" - "+
-                            _12HourSDF.format(_24HourSDF.parse(jArray.getJSONArray(3).get(start).toString()));
-                    time.add(t);
+                        {
+                    while (start < end) {
+                        if(!jArray.getJSONArray(0).get(start).toString().equals("noval")) {
+                            shop_names.add(jArray.getJSONArray(0).get(start).toString());
+                            shop_contact.add(jArray.getJSONArray(1).get(start).toString());
+                            String t = _12HourSDF.format(_24HourSDF.parse(jArray.getJSONArray(2).get(start).toString())) + " - " +
+                                    _12HourSDF.format(_24HourSDF.parse(jArray.getJSONArray(3).get(start).toString()));
+                            time.add(t);
 
-                    item_name.add(jArray.getJSONArray(4).get(sub).toString());
-                    item_brand.add(jArray.getJSONArray(4).get(sub+1).toString());
-                    item_preference.add(jArray.getJSONArray(4).get(sub+2).toString());
-                    item_qty.add(jArray.getJSONArray(4).get(sub+3).toString());
-                    item_price.add(jArray.getJSONArray(4).get(sub+4).toString());
-                    sub+=5;
+                            item_name.add(jArray.getJSONArray(4).get(sub).toString());
+                            item_brand.add(jArray.getJSONArray(4).get(sub + 1).toString());
+                            item_preference.add(jArray.getJSONArray(4).get(sub + 2).toString());
+                            item_qty.add(jArray.getJSONArray(4).get(sub + 3).toString());
+                            item_price.add(jArray.getJSONArray(4).get(sub + 4).toString());
+                            sub += 5;
 
-                    start++;
+                        }
 
-
+                        else
+                            sub += 5;
+                        start++;
+                    }
+                    if(shop_names.isEmpty())
+                    intent.putExtra("noshops", 1);
+                    else
+                        intent.putExtra("noshops", 0);
+                    intent.putExtra("shop_names", shop_names);
+                    intent.putExtra("shop_contact", shop_contact);
+                    intent.putExtra("time", time);
+                    intent.putExtra("item_name", item_name);
+                    intent.putExtra("item_brand", item_brand);
+                    intent.putExtra("item_qty", item_qty);
+                    intent.putExtra("item_price", item_price);
                 }
-                intent.putExtra("noshops",0);
-                intent.putExtra("shop_names",shop_names);
-                intent.putExtra("shop_contact",shop_contact);
-                intent.putExtra("time",time);
-                intent.putExtra("item_name",item_name);
-                intent.putExtra("item_brand",item_brand);
-                intent.putExtra("item_qty",item_qty);
-                intent.putExtra("item_price",item_price);
-
 
             }
             else

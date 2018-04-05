@@ -40,18 +40,20 @@
 
     <TextView
         android:id="@+id/place"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/shops_text"
-        android:layout_alignBottom="@+id/shops_text"
-        android:layout_toEndOf="@+id/no_shops"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/shops_text"
+        android:layout_marginEnd="57dp"
+        android:text="                 "
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/district"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/place"
         android:layout_below="@+id/place"
+        android:text="               "
         android:textSize="16sp" />
 </RelativeLayout>

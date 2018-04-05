@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\Anaya\\AndroidStudioProjects\\M-Find-Users\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/home/akhil/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/698e200438ea76a2f0e1a9d90c09733d/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Anaya\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\70ea688a5fa1ba093c0110b94ca0f94d\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Anaya\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\054dd71c7cf051374b2ab026b7ef0b1f\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "619,685,746,812",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "680,741,807,874"
-                    }
-                },
-                {
-                    "source": "/home/akhil/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/3ef60913e9580f44b6b6917b9da11890/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
                     }
                 }
             ]
