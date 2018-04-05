@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f1f2f4"
     tools:context="com.example.anaya.mfind.ShopListActivity">
 
     <TextView
@@ -14,25 +15,28 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="17dp"
         android:layout_marginTop="13dp"
-        android:text="5 Shops are Available for entered medicine" />
+        android:text="5 Shops are Available for entered medicine"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/no_shops"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/district"
-        android:gravity="center"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="129dp"
-        android:text="You have no shops " />
+        android:gravity="center"
+        android:text="You have no shops "
+        android:textSize="18sp" />
 
     <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/district"
-        android:layout_marginTop="14dp" />
+        android:layout_below="@+id/shops_text"
+        android:layout_marginTop="23dp"
+        android:dividerHeight="7dp" />
 
     <TextView
         android:id="@+id/place"
@@ -40,12 +44,14 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/shops_text"
         android:layout_alignBottom="@+id/shops_text"
-        android:layout_toEndOf="@+id/no_shops" />
+        android:layout_toEndOf="@+id/no_shops"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/district"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/place"
-        android:layout_below="@+id/place" />
+        android:layout_below="@+id/place"
+        android:textSize="16sp" />
 </RelativeLayout>

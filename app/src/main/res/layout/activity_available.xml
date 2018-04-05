@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/listback"
     tools:context="com.example.anaya.mfind.availableActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="#6F000000">
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/shop_name"
@@ -15,17 +26,19 @@
         android:layout_alignStart="@+id/med_name"
         android:layout_marginTop="31dp"
         android:paddingEnd="25dp"
-        android:text="Title" />
+        android:text="Title"
+        android:textColor="  #fdd1ab" />
 
     <TextView
         android:id="@+id/med_name"
-        android:layout_width="180dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/shop_name"
         android:layout_marginStart="26dp"
         android:layout_marginTop="30dp"
-        android:text="Medicine name" />
+        android:text="Medicine name"
+        android:textColor="#fdc57d" />
 
     <TextView
         android:id="@+id/price_"
@@ -34,7 +47,8 @@
         android:layout_alignStart="@+id/med_name"
         android:layout_below="@+id/med_name"
         android:layout_marginTop="16dp"
-        android:text="Medicine price" />
+        android:text="Medicine price"
+        android:textColor="#00ced1" />
 
     <TextView
         android:id="@+id/qty_"
@@ -43,17 +57,19 @@
         android:layout_alignStart="@+id/price_"
         android:layout_below="@+id/price_"
         android:layout_marginTop="20dp"
-        android:text="Medicine Quantity" />
+        android:text="Medicine Quantity"
+        android:textColor="#f0fff0" />
 
     <TextView
         android:id="@+id/place_dis"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/shop_name"
         android:layout_alignBottom="@+id/shop_name"
         android:layout_toEndOf="@+id/shop_name"
         android:paddingStart="10dp"
-        android:text="Karmana,Trivandrum" />
+        android:text="Karmana,Trivandrum"
+        android:textColor="#e6e6fa" />
 
     <ImageView
         android:id="@+id/txtCall"
@@ -66,12 +82,13 @@
 
     <TextView
         android:id="@+id/time_"
-        android:layout_width="180dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/qty_"
         android:layout_below="@+id/qty_"
         android:layout_marginTop="20dp"
-        android:text="Time" />
+        android:text="Time"
+        android:textColor="#f5fffa" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
@@ -90,5 +107,7 @@
         android:layout_alignBaseline="@+id/qty_"
         android:layout_alignBottom="@+id/qty_"
         android:layout_alignEnd="@+id/adView"
-        android:text="9568985632" />
+        android:text="9568985632"
+        android:textColor="#cbfdcb" />
+
 </RelativeLayout>

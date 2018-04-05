@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/signin"
         android:layout_width="160dp"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"

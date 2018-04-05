@@ -38,15 +38,14 @@ HashMap<String,String> idMap = new HashMap<>();
         proceed = findViewById(R.id.ok);
         context = this;
 
-
         mDrawableName = getIntent().getExtras().getString("medicine_image");
         idMap = (HashMap<String, String>) getIntent().getExtras().getSerializable("medicine_map");
-        Log.d("Drawimg",mDrawableName);
+
         medname = getIntent().getExtras().getString("medicine_name");
         med_details = getIntent().getExtras().getStringArrayList("medicine_details");
         int resID = getResources().getIdentifier(mDrawableName , "drawable", getPackageName());
         img.setBackgroundResource(resID);
-        typeface = Typeface.createFromAsset(getAssets(),"fonts/font1.ttf");
+        typeface = Typeface.createFromAsset(getAssets(),"fonts/font2.ttf");
         med_name.setText("Medicine Name:  "+medname);
         brand.setText(("Brand: "+ med_details.get(0)));
         pref.setText(("Preference: "+ med_details.get(1)));
@@ -54,6 +53,12 @@ HashMap<String,String> idMap = new HashMap<>();
         price.setText(("Price: "+ med_details.get(3)));
         district = getIntent().getExtras().getString("district");
         place = getIntent().getExtras().getString("place");
+
+        med_name.setTypeface(typeface);
+        brand.setTypeface(typeface);
+        pref.setTypeface(typeface);
+        desc.setTypeface(typeface);
+        price.setTypeface(typeface);
 
         proceed.setOnClickListener(new View.OnClickListener() {
             @Override

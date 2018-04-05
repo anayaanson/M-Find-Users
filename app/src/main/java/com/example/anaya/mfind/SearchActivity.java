@@ -121,7 +121,7 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(enterMedicine.getText().toString().equals("") || !hashMap.containsValue(enterMedicine.getText().toString()))
-                    Toast.makeText(getApplicationContext(),"Enter a Medicine name"+flag,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Enter a Medicine name",Toast.LENGTH_SHORT).show();
                 else
                 {
                     Intent medicine = new Intent(SearchActivity.this,Medicine_Details.class);

@@ -1,58 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    build-mode="COLD"
-    density="xxhdpi"
+    abi="x86"
+    api-level="24"
+    build-mode="HOT_WARM"
+    density="420dpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.1"
-    timestamp="1521892295705"
+    timestamp="1522908314413"
     token="2706341539910348329"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="235" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="57" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1521891139463"
+        timestamp="1522907701670"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
@@ -60,19 +56,10 @@
             location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -80,45 +67,14 @@
         <artifact
             location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
     </build>
     <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1521892295705"
-        verifier="COLD_SWAP_REQUESTED" >
+        build-mode="HOT_WARM"
+        timestamp="1522908314413"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/akhil/Desktop/Anaya/AndroidStudioProjects/M-Find-Users/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

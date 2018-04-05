@@ -2,6 +2,7 @@ package com.example.anaya.mfind;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,6 +28,7 @@ public class ShopListActivity extends AppCompatActivity {
 
     TextView district,place,num_shops,no_shops;
     ListView  listView;
+    Typeface t1,t2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +38,12 @@ public class ShopListActivity extends AppCompatActivity {
         district = findViewById(R.id.district);
         listView = findViewById(R.id.listview);
         no_shops = findViewById(R.id.no_shops);
-
+        t1 = Typeface.createFromAsset(getAssets(),"fonts/font1.ttf");
+        t2 = Typeface.createFromAsset(getAssets(),"fonts/font2.ttf");
+        num_shops.setTypeface(t1);
+        no_shops.setTypeface(t2);
+        place.setTypeface(t1);
+        district.setTypeface(t2);
 
        // district.setText(getIntent().getExtras().getString("district"));
     //    place.setText(getIntent().getExtras().getString("place"));
@@ -58,6 +65,8 @@ public class ShopListActivity extends AppCompatActivity {
             item_preference = getIntent().getExtras().getStringArrayList("item_preference");
             item_price = getIntent().getExtras().getStringArrayList("item_price");
             item_brand = getIntent().getExtras().getStringArrayList("item_brand");
+            place.setText(getIntent().getExtras().getString("place"));
+            district.setText(getIntent().getExtras().getString("district"));
 
             num_shops.setText(shop_names.size()+" Shops have the Medicine");
             listAdapter adp =new listAdapter(this,shop_names,shop_contact,time,item_name,
@@ -122,14 +131,12 @@ public class ShopListActivity extends AppCompatActivity {
             final TextView shopname = view.findViewById(R.id.shop_name);
             TextView times = view.findViewById(R.id.shop_time);
             final TextView contact = view.findViewById(R.id.shop_contact);
-            final TextView districts = view.findViewById(R.id.district);
-            final TextView places = view.findViewById(R.id.place);
-
             shopname.setText(shop_names.get(position));
             times.setText("Time "+this.time.get(position));
             contact.setText("Contact  "+this.shop_contact.get(position));
-            districts.setText(this.district);
-            places.setText(this.place);
+            shopname.setTypeface(t2);
+            times.setTypeface(t2);
+            contact.setTypeface(t2);
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override

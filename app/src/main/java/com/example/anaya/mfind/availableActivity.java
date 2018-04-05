@@ -63,11 +63,7 @@ public class availableActivity extends AppCompatActivity {
         txtqty.setText("Available Qty(s): "+qty);
         txttime.setText("Opened Between "+time);
 
-
-
-
         ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CALL_PHONE},99);
-
         adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
